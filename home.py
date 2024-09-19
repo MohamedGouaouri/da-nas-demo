@@ -46,14 +46,8 @@ st.page_link("pages/performance.py", label=" * Figure 3 and 4: Scaled Performanc
 st.page_link("pages/inference.py", label=" * Figure 6 and 7: Model Inference Time")
 st.page_link("pages/stability.py", label=" * Figure 8 and 9: Errors and training duration.")
 
-st.write("We are still working on adding the other figures.")
+st.page_link("pages/joint_da_nas.py", label=" * Figure 8 and 9: Errors and training duration.")
 
-st.write(
-    """
-    The code and data of this app is available at https://github.com/pgijsbers/amlb-streamlit.
-    The raw data is available on our minio server S3 bucket https://openml1.win.tue.nl/automlbenchmark2023 
-    and the preprocessing notebooks are available at https://github.com/pgijsbers/amlb-results. 
-    """)
 
 write_card(
     body= "Click the three stacked dots in the top right, then navigate to"
